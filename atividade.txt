@@ -1,0 +1,21 @@
+questão 1
+
+import java.util.Scanner;
+public class exercicios {
+    public static void main(String[] args) {
+        Scanner tcl=new Scanner (System.in);
+        int a = tcl.nextInt();
+        int b = tcl.nextInt();
+        if (a > b){
+            System.out.println(a+"é maior ");
+            System.out.println(b+"é  o menor");
+        }
+        if(a == b){
+            System.out.println(a+"é igual a"+b);
+        }else{ 
+            System.out.println(b+"é maior");
+            System.out.println(a+"é menor");
+        }
+    }
+}
+
